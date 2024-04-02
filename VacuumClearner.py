@@ -4,7 +4,6 @@ import numpy as np
 class VacuumCleaner:
   """This class implements a vacuum-cleaner that visits given locations and removes dust
 
-    CS4408 - Artificial Intelligence - Programming Assignment 2
     @author: Dmitrii Kosintsev
     @date:   14 February 2024
     
@@ -13,8 +12,8 @@ class VacuumCleaner:
     - Move to a new location (once per function call)
     - Clean a location (once per function call)
     - Mark the location as visited (once per function call)
-    """
-  """Create a VacuumCleaner object with the following instances:
+    
+    Create a VacuumCleaner object with the following instances:
     - map: 2D array that represents the map of the place
     - dirt: 2D array that shows whether each location is clean or dirty
     - visited: 2D array to keep track of the visited locations
